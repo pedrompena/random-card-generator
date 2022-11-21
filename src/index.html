@@ -13,16 +13,26 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div
+      class="container-fluid text-center d-flex flex-column align-items-center"
+    >
+      <h1 class="mt-5 text-light">Random Card Generator</h1>
+
+      <div class="my-card mt-5">
+        <span class="top-icon"></span>
+        <span class="number"></span>
+        <span class="bot-icon"></span>
+      </div>
+
+      <button class="btn mt-5 bg-light">Swap Card</button>
+      <div class="input-group input-group-sm mt-5">
+        <input
+          type="text"
+          class="form-control input"
+          aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-sm"
+          placeholder="Set your own width in px"
+        />
       </div>
     </div>
   </body>
